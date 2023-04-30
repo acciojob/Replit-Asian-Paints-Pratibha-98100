@@ -1,5 +1,11 @@
 /*  your css code here. If applicable */
-.contaier{
+.container{
 	display:grid;
-	
+	background-color:red;
+	 grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 100px);
+}
+
+.item{
+	border:2px solid black;
 }
